@@ -27,8 +27,8 @@ module.exports = {
       },
     },
     vkontakte: {
-      app_id: process.env.VKONTAKTE_APP_ID || 'vkontakte_app_id',
-      app_secret: process.env.VKONTAKTE_APP_SECRET || 'vkontakte_app_secret',
+      app_id: process.env.VKONTAKTE_APP_ID || 7422411,
+      app_secret: process.env.VKONTAKTE_APP_SECRET || 'FBEf9QSyWI11OtCeYQ3G',
       callback_uri: 'http://localhost:3000/oauth/vkontakte',
       options: {
         scope: ['email'],
